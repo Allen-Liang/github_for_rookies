@@ -135,7 +135,7 @@
 > 就会有下面的提醒:<br>
 > ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/s2.png) <br>
  它提供多种方式的创建方法:<br>
-* create a new repository on the command line
+* create a new repository on the command line(注意cd到项目路径下)
 > ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/c.png) <br>
 >echo "# github-roam" >> README.md <br>
 git init //把这个目录变成Git可以管理的仓库 <br>
