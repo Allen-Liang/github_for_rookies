@@ -108,7 +108,8 @@
 ## 2.2 Windows下Github使用方法 
 * git的初始设置
 回到桌面，打开git bash，输入以下命令:
-> git config --global user.name Your Real Name  <br>填入你的用户名，这个好像可以随意
+> git config --global user.name Your Real Name  <br>
+> 填入你的用户名，这个好像可以随意 <br>
 > git config --global user.email you@email.address  <br>填入你注册github账户时绑定的email
 
 * 创建SSH密匙
