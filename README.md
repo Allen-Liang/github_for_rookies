@@ -122,6 +122,12 @@
 > clip < ~/.ssh/id_rsa.pub  （如果可以打开pub文件手动复制内容，就不用这行命令了）<br>
 
 
+* 提交ssh密匙
+> 回到github的页面上，在右上方工具栏里找到Account Settings。在这个页面上有一个SSH Public Keys标签，选择Add another public key。Title可以任意填写，Key是刚才生成的ssh public key。在刚才创建密匙的那个目录下找到id_rsa.pub文件，把文件内容拷贝并粘贴到github页面key的空白处。然后Apply，就好了。<br>
+
+
+
+
 
 
 
