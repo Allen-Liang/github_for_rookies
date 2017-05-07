@@ -113,10 +113,11 @@
 
 * 创建SSH密匙
 打开git bash，输入以下命令：
-> ssh-keygen -C 'your@email.address' -t rsa  <br>然后一路next就好了
-![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/key.png)
-再去查看文件目录（上图代码里面的文件路径），应该就已经有.ssh文件了，这个时候可以复制id_rsa.pub的文件内容到github上。<br>
-如果打不开pub文件，就用下面的这条命令复制<br>
+> ssh-keygen -C 'your@email.address' -t rsa  <br>
+> 然后一路next就好了<br>
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/key.png) <br>
+> 再去查看文件目录（上图代码里面的文件路径），应该就已经有.ssh文件了，这个时候可以复制id_rsa.pub的文件内容到github上。<br>
+> 如果打不开pub文件，就用下面的这条命令复制<br>
 > clip < ~/.ssh/id_rsa.pub  （如果可以打开pub文件手动复制内容，就不用这行命令了）<br>
 
 
