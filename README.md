@@ -105,4 +105,9 @@
 > [git官网](https://www.github.com/) <br> git gui&bash客户端下载，选择自己对应的OS下载即可<br>
 ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/git.png)<br>
 
+## 2.2 Windows下Github使用方法 
+* git的初始设置
+'git config --global user.name "Your Real Name" ' 
+'git config --global user.email you@email.address'
+
 
