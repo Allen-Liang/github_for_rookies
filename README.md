@@ -124,6 +124,11 @@
 
 * 提交ssh密匙
 > 回到github的页面上，在右上方工具栏里找到Account Settings。在这个页面上有一个SSH Public Keys标签，选择Add another public key。Title可以任意填写，Key是刚才生成的ssh public key。在刚才创建密匙的那个目录下找到id_rsa.pub文件，把文件内容拷贝并粘贴到github页面key的空白处。然后Apply，就好了。<br>
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/ssh.png) <br>
+配置到这里应该可以用了，哈哈哈
+
+* 创建一个本地仓库
+* 创建一个远程仓库
 
 
 
