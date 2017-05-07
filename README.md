@@ -4,7 +4,7 @@
 按卖假货的学长的习惯，先推荐一首歌，再安利一个图，最后上教程，哈哈！<br>
 [推荐一首：春天———古巨基](http://music.163.com/#/song?id=86611 "卖假货的学长推荐，点了不后悔，哈哈！") <br>
 ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/nvshen.jpg)<br>
-# 1.认识github
+# 1.初识github
 ## 1.1 github是什么？<br>
 >   Github是一个代码托管平台和开发者社区，开发者可以在Github上创建自己的开源项目并与其他开发者协作编码。创业公司可以用它来托管软件项目，开源项目可以免费托管，私有项目需付费。Github主要提供基于Git的版本托管服务，也就是说现在GitHub上托管的所有项目代码都是基于Git来进行版本控制的。<br>
 ## 1.2 github能干什么？
@@ -96,3 +96,9 @@
 
 * Upstream
 > 上游，对于一个branch或者fork来说，源库的主分支即是其它修改信息的源头，被称为upstream，相对的其它branch或fork就被称为downstream了。
+
+
+# 2.初入github
+##2.1 注册hithub账户&绑定邮箱
+> [github官网](https://www.github.com/) <br>这个没什么说的，按照 步骤一步一步就好。邮箱很重要哦，后面经常用到！<br>
+![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/index.png)<br>
