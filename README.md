@@ -125,10 +125,43 @@
 * 提交ssh密匙
 > 回到github的页面上，在右上方工具栏里找到Account Settings。在这个页面上有一个SSH Public Keys标签，选择Add another public key。Title可以任意填写，Key是刚才生成的ssh public key。在刚才创建密匙的那个目录下找到id_rsa.pub文件，把文件内容拷贝并粘贴到github页面key的空白处。然后Apply，就好了。<br>
 > ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/ssh.png) <br>
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/ssh2.png) <br>
 配置到这里应该可以用了，哈哈哈
 
-* 创建一个本地仓库
-* 创建一个远程仓库
+* 创建一个远程仓库Repository
+> 我们试试在github上面创建一个项目:
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/1.png) <br>
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/s1.png) <br>
+> 就会有下面的提醒:<br>
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/s2.png) <br>
+ 它提供多种方式的创建方法:<br>
+* create a new repository on the command line
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/c.png) <br>
+>echo "# github-roam" >> README.md <br>
+git init //把这个目录变成Git可以管理的仓库 <br>
+git add README.md //文件添加到仓库 <br>
+git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部add了  <br>
+git commit -m "first commit" //把文件提交到仓库 <br>
+git remote add origin git@github.com:xxxx/xxxx.git //关联远程仓库 <br>
+git push -u origin master //把本地库的所有内容推送到远程库上 <br>
+
+* push an existing repository from the command line
+> git remote add origin git@github.com:xxxxxx/xxxx.git <br>
+git push -u origin master<br>
+
+* clone一个远程仓库Repository到本地计算机
+> 先复制仓库地址<br>
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/c1.png) <br>
+> 启动bash,输入如下命令<br>
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/c2.png) <br>
+
+* 重新认识github
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/changku.png) <br> 
+
+
+
+
+
 
 
 
