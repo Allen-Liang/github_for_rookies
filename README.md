@@ -107,24 +107,16 @@
 
 ## 2.2 Windows下Github使用方法 
 * git的初始设置
-回到桌面，打开git bash，输入以下命令
-<br>
-> git config --global user.name Your Real Name 
-<br>
-填入你的用户名，这个好像可以随意
-<br>
-> git config --global user.email you@email.address 
-<br>
-填入你注册github账户时绑定的email
-<br>
+回到桌面，打开git bash，输入以下命令:
+> git config --global user.name Your Real Name  <br>填入你的用户名，这个好像可以随意
+> git config --global user.email you@email.address  <br>填入你注册github账户时绑定的email
 
 * 创建SSH密匙
-打开git bash，输入以下命令：<br>
-> ssh-keygen -C 'your@email.address' -t rsa  
-<br>然后一路next就好了<br>
+打开git bash，输入以下命令：
+> ssh-keygen -C 'your@email.address' -t rsa  <br>然后一路next就好了
 ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/key.png)
-<br>再去查看文件目录（上图代码里面的文件路径），应该就已经有.ssh文件了，这个时候可以复制id_rsa.pub的文件内容到github上。<br>
-<br>如果打不开pub文件，就用下面的这条命令复制<br>
+再去查看文件目录（上图代码里面的文件路径），应该就已经有.ssh文件了，这个时候可以复制id_rsa.pub的文件内容到github上。<br>
+如果打不开pub文件，就用下面的这条命令复制<br>
 > clip < ~/.ssh/id_rsa.pub  （如果可以打开pub文件手动复制内容，就不用这行命令了）<br>
 
 
