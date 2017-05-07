@@ -163,7 +163,8 @@ git push -u origin master<br>
 
 # 3.进阶篇
 
-3.1[看大牛的吧_http://github.phodal.com](http://github.phodal.com/) <br>
+[看大牛的吧_http://github.phodal.com](http://github.phodal.com/) <br>
+[看大牛的吧_https://github.com/jasonim/github-guide](https://github.com/jasonim/github-guide/)
 
 
 
