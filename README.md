@@ -99,6 +99,6 @@
 
 
 # 2.初入github
-##2.1 注册hithub账户&绑定邮箱
+## 2.1 注册hithub账户&绑定邮箱
 > [github官网](https://www.github.com/) <br>这个没什么说的，按照 步骤一步一步就好。邮箱很重要哦，后面经常用到！<br>
 ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/index.png)<br>
