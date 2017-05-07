@@ -157,7 +157,13 @@ git push -u origin master<br>
 
 * 重新认识github
 > ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/changku.png) <br> 
+> ![](https://github.com/Allen-Liang/github_for_rookies/raw/master/images/haha.png) <br>
 
+
+
+# 3.进阶篇
+
+3.1[看大牛的吧_http://github.phodal.com]（http://github.phodal.com/） <br>
 
 
 
